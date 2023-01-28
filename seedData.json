@@ -1,0 +1,105 @@
+{
+    "restaurant": [
+        {
+            "name": "Haket",
+            "city": "Gothenburg",
+            "street": "storgatan 26",
+            "postalcode": "56532",
+        },
+        {
+            "name": "Taj mahal",
+            "city": "Stockholm",
+            "street": "odengatan 26",
+            "postalcode": "23564",
+        },
+        {
+            "name": "Lilla bangkok",
+            "city": "Malmö",
+            "street": "Möllevångstorg 1",
+            "postalcode": "14568",
+        },
+        {
+            "name": "Rökeriet",
+            "city": "Halmstad",
+            "street": "Svenssons gata 23",
+            "postalcode": "45348",
+        },
+    ],
+    "person": [
+        {
+            "firstname": "Alice",
+            "lastname": "Hughes",
+            "born": "1983-01-20",
+            "city": "Gothenburg",
+            "gender": "Female"
+        },
+        {
+            "firstname": "John",
+            "lastname": "Hughes",
+            "born": "1980-11-10",
+            "city": "Gothenburg",
+            "gender": "Male"
+        },
+        {
+            "firstname": "Anders",
+            "lastname": "Svensson",
+            "born": "1970-05-10",
+            "city": "Skara",
+            "gender": "Male"
+        },
+        {
+            "firstname": "Stina",
+            "lastname": "Olsson",
+            "born": "1985-05-30",
+            "city": "Stockholm",
+            "gender": "Female"
+        },
+        {
+            "firstname": "Anna",
+            "lastname": "Danielsson",
+            "born": "1978-02-28",
+            "city": "Stockholm",
+            "gender": "Female"
+        },
+        {
+            "firstname": "Johan",
+            "lastname": "Nilsson",
+            "born": "1988-12-01",
+            "city": "Karlstad",
+            "gender": "Male"
+        },
+    ],
+    "review": [
+        {
+            "personId": 1,
+            "restaurantId": 1,
+            "rating": 4,
+            "review": "Good restaurant, nice food"
+        },
+        {
+            "personId": 2,
+            "restaurantId": 1,
+            "rating": 3,
+            "review": "Its's okey, no more, no less"
+        },
+        {
+            "personId": 4,
+            "restaurantId": 4,
+            "rating": 5,
+            "review": "Best place ever"
+        },
+        {
+            "personId": 3,
+            "restaurantId": 1,
+            "rating": 3,
+            "review": "Decent"
+        },
+        {
+            "personId": 4,
+            "restaurantId": 2,
+            "rating": 5,
+            "review": "Amazing food"
+        },
+    ]
+
+}
