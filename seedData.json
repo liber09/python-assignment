@@ -1,44 +1,69 @@
 {
     "restaurant": [
         {
-            "name": "Haket",
-            "city": "Gothenburg",
-            "street": "storgatan 26",
-            "postalcode": "56532",
+            "model": "restaurant",
+            "pk": 1,
+            "fields": {
+                "name": "Haket",
+                "city": "Gothenburg",
+                "street": "storgatan 26",
+                "postalcode": "56532"
+            }
         },
         {
-            "name": "Taj mahal",
-            "city": "Stockholm",
-            "street": "odengatan 26",
-            "postalcode": "23564",
+            "model": "restaurant",
+            "pk": 2,
+            "fields": {
+                "name": "Taj mahal",
+                "city": "Stockholm",
+                "street": "odengatan 26",
+                "postalcode": "23564"
+            }
         },
         {
-            "name": "Lilla bangkok",
-            "city": "Malmö",
-            "street": "Möllevångstorg 1",
-            "postalcode": "14568",
+            "model": "restaurant",
+            "pk": 3,
+            "fields": {
+                "name": "Lilla bangkok",
+                "city": "Malmö",
+                "street": "Möllevångstorg 1",
+                "postalcode": "14568"
+            }
         },
         {
-            "name": "Rökeriet",
-            "city": "Halmstad",
-            "street": "Svenssons gata 23",
-            "postalcode": "45348",
-        },
+            "model": "restaurant",
+            "pk": 4,
+            "fields": {
+                "name": "Rökeriet",
+                "city": "Halmstad",
+                "street": "Svenssons gata 23",
+                "postalcode": "45348"
+            }
+        }
     ],
+
     "person": [
         {
-            "firstname": "Alice",
-            "lastname": "Hughes",
-            "born": "1983-01-20",
-            "city": "Gothenburg",
-            "gender": "Female"
+            "model": "person",
+            "pk": 1,
+            "fields": {
+                "firstname": "Alice",
+                "lastname": "Hughes",
+                "born": "1983-01-20",
+                "city": "Gothenburg",
+                "gender": "Female"
+            }
         },
         {
-            "firstname": "John",
-            "lastname": "Hughes",
-            "born": "1980-11-10",
-            "city": "Gothenburg",
-            "gender": "Male"
+            "model": "person",
+            "pk": 2,
+            "fields": {
+                "firstname": "John",
+                "lastname": "Hughes",
+                "born": "1980-11-10",
+                "city": "Gothenburg",
+                "gender": "Male"
+            }
         },
         {
             "firstname": "Anders",
@@ -48,58 +73,90 @@
             "gender": "Male"
         },
         {
-            "firstname": "Stina",
-            "lastname": "Olsson",
-            "born": "1985-05-30",
-            "city": "Stockholm",
-            "gender": "Female"
+            "model": "person",
+            "pk": 3,
+            "fields": {
+                "firstname": "Stina",
+                "lastname": "Olsson",
+                "born": "1985-05-30",
+                "city": "Stockholm",
+                "gender": "Female"
+            }
         },
         {
-            "firstname": "Anna",
-            "lastname": "Danielsson",
-            "born": "1978-02-28",
-            "city": "Stockholm",
-            "gender": "Female"
+            "model": "person",
+            "pk": 4,
+            "fields": {
+                "firstname": "Anna",
+                "lastname": "Danielsson",
+                "born": "1978-02-28",
+                "city": "Stockholm",
+                "gender": "Female"
+            }
         },
         {
-            "firstname": "Johan",
-            "lastname": "Nilsson",
-            "born": "1988-12-01",
-            "city": "Karlstad",
-            "gender": "Male"
-        },
+            "model": "person",
+            "pk": 5,
+            "fields": {
+                "firstname": "Johan",
+                "lastname": "Nilsson",
+                "born": "1988-12-01",
+                "city": "Karlstad",
+                "gender": "Male"
+            }
+        }
     ],
     "review": [
         {
-            "personId": 1,
-            "restaurantId": 1,
-            "rating": 4,
-            "review": "Good restaurant, nice food"
+            "model": "review",
+            "pk": 1,
+            "fields": {
+                "personId": 1,
+                "restaurantId": 1,
+                "rating": 4,
+                "review": "Good restaurant, nice food"
+            }
         },
         {
-            "personId": 2,
-            "restaurantId": 1,
-            "rating": 3,
-            "review": "Its's okey, no more, no less"
+            "model": "review",
+            "pk": 2,
+            "fields": {
+                "personId": 2,
+                "restaurantId": 1,
+                "rating": 3,
+                "review": "Its's okey, no more, no less"
+            }
         },
         {
-            "personId": 4,
-            "restaurantId": 4,
-            "rating": 5,
-            "review": "Best place ever"
+            "model": "review",
+            "pk": 3,
+            "fields": {
+                "personId": 4,
+                "restaurantId": 4,
+                "rating": 5,
+                "review": "Best place ever"
+            }
         },
         {
-            "personId": 3,
-            "restaurantId": 1,
-            "rating": 3,
-            "review": "Decent"
+            "model": "review",
+            "pk": 4,
+            "fields": {
+                "personId": 3,
+                "restaurantId": 1,
+                "rating": 3,
+                "review": "Decent"
+            }
         },
         {
-            "personId": 4,
-            "restaurantId": 2,
-            "rating": 5,
-            "review": "Amazing food"
-        },
+            "model": "review",
+            "pk": 5,
+            "fields": {
+                "personId": 4,
+                "restaurantId": 2,
+                "rating": 5,
+                "review": "Amazing food"
+            }
+        }
     ]
 
 }
