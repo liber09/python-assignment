@@ -1,6 +1,6 @@
 from dataclasses import dataclass
-
-@dataclass
+#order = True enables sorting
+@dataclass(order = True)
 class Restaurant():
     id: int
     name: str

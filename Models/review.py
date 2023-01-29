@@ -1,6 +1,7 @@
 from dataclasses import dataclass
 
-@dataclass
+#order = True enables sorting
+@dataclass(order = True)
 class Review():
     id: int
     person_id: int
