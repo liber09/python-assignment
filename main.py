@@ -1,4 +1,4 @@
 def menu():
-    print('1: Get all vehicles\n2: Get all cars')
+    print('1: Get all restaurants')
 
 def main():
