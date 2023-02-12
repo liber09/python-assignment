@@ -59,3 +59,14 @@ def get_restaurant_by_id(id: int):
 def get_review_by_id(id: int):
     data = db.get(table="review", where=("id", str(id)))
     return data
+
+@app.post("/create_person")
+def create_person(person: person):
+    create_person_query = """INSERT INTO people (
+        first_name, last_name,
+        born, city, gender ) VALUES (
+            ?,?,?,?,?)
+            """ 
+    db.call_db(create_person_query, person.first_name,person.last_name, person.born,
+               person.city, person.gender)
+    return person;
