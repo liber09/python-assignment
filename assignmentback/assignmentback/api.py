@@ -30,6 +30,7 @@ with cursor_obj.connection as cursor:
     cursor.connection.commit()
     cursor.connection.close()
 
+
 @app.get("/", response_class=HTMLResponse)
 def root():
     return "Hello World"
@@ -38,6 +39,8 @@ def root():
 def root():
     populate_database
     return "populated database"
+
+
 
 #Get person with id
 @app.get("/persons/{id}")
