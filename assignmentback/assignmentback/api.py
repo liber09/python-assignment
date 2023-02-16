@@ -1,4 +1,4 @@
-from psycopg2 import 
+from psycopg2 import _psycopg2
 from fastapi import FastAPI
 from fastapi.responses import HTMLResponse
 

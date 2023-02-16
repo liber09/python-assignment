@@ -38,7 +38,7 @@ INSTALLED_APPS = [
     "django.contrib.messages",
     "django.contrib.staticfiles",
     #This is the application
-    'catalog.app.CatalogConfig'
+    'catalog'
 ]
 
 MIDDLEWARE = [
@@ -51,7 +51,7 @@ MIDDLEWARE = [
     "django.middleware.clickjacking.XFrameOptionsMiddleware",
 ]
 
-ROOT_URLCONF = "assignmentback.urls"
+ROOT_URLCONF = "app.urls"
 
 TEMPLATES = [
     {
