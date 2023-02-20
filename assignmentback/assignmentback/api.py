@@ -70,3 +70,25 @@ def create_person(person: person):
     db.call_db(create_person_query, person.first_name,person.last_name, person.born,
                person.city, person.gender)
     return person;
+
+@app.post("/create_review")
+def create_review(review: review):
+    create_review_query = """INSERT INTO review (
+        person_id, restaurant_id, rating,
+        review_text ) VALUES (
+            ?,?,?,?)
+            """ 
+    db.call_db(create_review_query, review.Review.person_id,
+               review.Review.restaurant_id,review.Review.rating,
+               review.Review.review_text)
+    return review;
+
+#update person with id
+@app.put("/person/{id}")
+def update_person_by_id(id: int, person):
+    db.put(table="person", where=("id", str(id)))
+
+#delete review with id
+@app.delete("/review/{id}")
+def delete_review_by_id(id: int):
+    db.delete(table="review", where=("id", str(id)))
